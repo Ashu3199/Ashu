@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // Define the MongoDB connection URI
-const MONGO_URI = 'mongodb+srv://notessaverproject:37eRUcUkBGp1NSxe@cluster0.k1aat.mongodb.net/';
+const MONGO_URI = 'mongodb+srv://sanu3199netflix:23p9pjTqRmNTfNZ5@clustermongo0.6lcq3.mongodb.net/ashu';
 
 // Function to connect to the MongoDB database
 const connectDB = async () => {
