@@ -60,7 +60,7 @@ router.post('/identify', async (req, res) => {
             )
         );
 
-        // Combine all unique phone numbers from matching contacts and the current phone number
+        // Combine all unique phone numbers from matching contacts and the current phone number.
         const allPhoneNumbers = Array.from(
             new Set(
                 matchingContacts
